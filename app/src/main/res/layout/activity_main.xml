@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_cleardata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除解析数据" />
+
+    <Button
+        android:id="@+id/btn_self"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="原生态JOSN" />
+
+    <Button
+        android:id="@+id/btn_fastjosn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FASTJOSN" />
+
+    <Button
+        android:id="@+id/btn_gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GSON" />
+
+    <Button
+        android:id="@+id/btn_jackson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JACKSON" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text=""
+        android:id="@+id/tv_jsondata" />
+
+
+</LinearLayout>
